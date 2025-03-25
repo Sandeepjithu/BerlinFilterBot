@@ -84,6 +84,11 @@ these are the extra features of Eva Maria
 • /id - <code>User id  .</code>
 • /broadcast - <code>Broadcast (owner only).</code>
 """
+    
+    RESULT_TXT="""<blockquote> Hey,     </blockquote>
+<blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
+    
+    
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
@@ -123,7 +128,7 @@ FɪʟᴇSɪᴢᴇ : {file_size}
     
     RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
-Natasha Back 🔙 
+i am  Back 🔙 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>
 🌐 𝖳𝗂𝗆𝖾𝗓𝗈𝗇𝖾 : <code>Asia/Kolkata</code>
@@ -169,4 +174,4 @@ Try reading the instruction below 👇🏼
 <pre>Report To ADMIN BY USING /bugs command </pre> 
 """
     RESTART_TXT = """
-<b><u>Natasha 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
+<b><u> 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
