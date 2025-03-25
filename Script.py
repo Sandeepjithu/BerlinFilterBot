@@ -1,24 +1,21 @@
 class script(object):
     START_TXT = """ Hᴇʟʟᴏ {}.
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
+    
+𝖨𝗆 𝖺𝗇 Autofilter bot 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
 + 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 + 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇."""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
 """
-    ABOUT_TXT = """<b>
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/stroker_kidd>𝗠𝗮𝗱𝗼𝘅 💗</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚄𝙽𝙺𝙽𝙾𝚆𝙽
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂:𝚂𝚃𝙰𝙱𝙻𝙴 𝙱𝙴𝚃𝙰
-    SOURCE_TXT = """<b>NOTE:</b>
-- Shobana Filter Bot  is a open source project. 
-- Source - <ahref=https://github.com/mn-bots/ShobanaFilterBot>Click Here to get source code</a>
-
-<b>DEVS:</b>
--<a href=https://github.com/mntg4u> MN - TG</a>"""
+    ABOUT_TXT = """<b><blockquote>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}</blockquote>\n
+<blockquote>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/aktelegram1>MMW BOTZ</a>
+◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
+◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
+◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: [ Sᴛᴀʙʟᴇ 𝙱𝙴𝚃𝙰 ]</blockquote></b>"""
+    
+    SOURCE_TXT = """<b><blockquote>ഇവിടെ നോക്കണ്ട സാധനം കൊടുക്കുന്നില്ല...</blockquote></b>"""
+    
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and shobana will respond whenever a keyword is found the message
 <b>NOTE:</b>
@@ -72,16 +69,17 @@ Currently using free server so please Dont kill Me...
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of ShobanaFilterBot
+these are the extra features of Eva Maria
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>
-• /start - <code>Check I'm Alive.</code>
+• /start - <code>Check I'm Alive..</code>
 • /ping - <code>check ping.</code>
 • /usage - <code>usage of bot.</code>
+• /status - <code>Bot Status.</code>
 • /info - <code>User info .</code>
 • /id - <code>User id  .</code>
 • /broadcast - <code>Broadcast (owner only).</code>
@@ -103,46 +101,43 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """
+ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
  𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
  𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
  𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
- 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
+ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>"""
     LOG_TEXT_G = """#NewGroup
+
+Natasha™
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    RESULT_TXT="""<blockquote> Hey,     </blockquote>
-<blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
+    
+    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-    CUSTOM_FILE_CAPTION = """<pre>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
-</pre>"""
+"""
 
     
     RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
-
+Natasha Back 🔙 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>
 🌐 𝖳𝗂𝗆𝖾𝗓𝗈𝗇𝖾 : <code>Asia/Kolkata</code>
 🛠️ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : <code>𝗏1 [ 𝖲𝗍able ]</code></b>"""
     
     LOG_TEXT_P = """#NewUser
+
+Natasha 
 ID - <code>{}</code>
 Name - {}
 """
-    SPOLL_NOT_FND="""
+    SPOLL_NOT_FND="""<blockquote> Hi Sir</blockquote>
 I couldn't find anything related to your request. 
-Try reading the instruction below 
-<blockquote>
-1️ Ask in Correct Spelling
-2️ Don't ask Movies which are not Realased on OTT PLATFORMS
-3️ Possible  ASK [movie name langauge] like this or [movie year] </blockquote>
-OR
-<b> Tʜɪs Mᴏᴠɪᴇ Is Nᴏᴛ Aᴅᴅᴇᴅ Tᴏ DB</b>
-<pre>Report To ADMIN BY USING /bugs command </pre> 
+Try reading the instruction below 👇🏼
     """
 #SPELL CHECK LANGUAGES TO KNOW callback
     ENG_SPELL="""Please Note Below📓
@@ -174,5 +169,4 @@ OR
 <pre>Report To ADMIN BY USING /bugs command </pre> 
 """
     RESTART_TXT = """
-<b><u>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
-
+<b><u>Natasha 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
